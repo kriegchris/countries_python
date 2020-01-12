@@ -1,7 +1,7 @@
 import re
 
 # get any valid integer
-def getInt(prompt):
+def getInteger(prompt):
     number = input(prompt)
     while not number.isdigit():
         print("Sorry, I can't read that. Enter a whole number, using digits.")

@@ -1,5 +1,5 @@
 
-class country:
+class Country:
 
     def __init__(self, name, population):
         self.name = name
